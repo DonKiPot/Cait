@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/electro.ico" type="image/x-icon">
+    <title>ElectroShop</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="img/header_logo.png" width="100" height="100" />
+            </a>
+            <div class="search-catalog-container">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Поиск...">
+                    <button id="search-button">Поиск</button>
+                </div>
+                <div class="catalog-container">
+                    <button id="catalog-button">Каталог</button>
+                    <div id="catalog-dropdown" class="catalog-dropdown">
+                        <a href="category1.html">Смартфоны и гаджеты</a>
+                        <a href="category2.html">Компьютеры и ноутбуки</a>
+                        <a href="category3.html">Телевизоры и аудио</a>
+                        <a href="category4.html">Бытовая техника</a>
+                        <a href="category5.html">Аксессуары</a>
+                        <a href="category6.html">Умный дом</a>
+                    </div>
+                </div>
+            </div>
+            <div class="auth-container">
+                <button id="auth-button">Войти</button>
+                <div id="auth-form" class="auth-form">
+                    <input type="text" id="username" placeholder="Логин">
+                    <input type="password" id="password" placeholder="Пароль">
+                    <button id="login-button">Войти</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide"><img src="slider/slide1.png" alt="Slide 1"></div>
+                <div class="slide"><img src="slider/slide2.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="slider/slide3.png" alt="Slide 3"></div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <a href="category1.html">
+                    <p>Смартфоны</p>
+                </a>
+            </div>
+            <div class="container">
+                <a href="category2.html">
+                    <p>Ноутбуки</p>
+                </a>
+            </div>
+            <div class="container">
+                <a href="vrabote.html">
+                    <p>Телевизоры и аудио</p>
+                </a>
+            </div>
+            <div class="container">
+                <a href="vrabote.html">
+                    <p>Бытовая техника</p>
+                </a>
+            </div>
+            <div class="container">
+                <a href="vrabote.html">
+                    <p>Аксессуары</p>
+                </a>
+            </div>
+            <div class="container">
+                <a href="vrabote.html">
+                    <p>Умный дом</p>
+                </a>
+            </div>
+        </section>
+        <div class="textop">
+            <h7>Добро пожаловать в ElectroShop!</h7>
+            <p><strong>ElectroShop</strong> — ваш надежный партнер в мире электроники. Мы предлагаем широкий ассортимент качественных устройств и аксессуаров, которые помогут вам воплотить в жизнь любые ваши проекты.</p>
+
+            <h8>Почему выбирают ElectroShop?</h8>
+            <ul>
+                <li><strong>Широкий ассортимент</strong>: Все необходимое для вашего дома и офиса.</li>
+                <li><strong>Качество и надежность</strong>: Только проверенные товары от лучших производителей.</li>
+                <li><strong>Доступные цены</strong>: Конкурентоспособные цены и регулярные акции.</li>
+                <li><strong>Удобство и скорость</strong>: Быстрая доставка по всей стране.</li>
+            </ul>
+
+            <h2>Наши категории:</h2>
+            <ul>
+                <li>Смартфоны и гаджеты</li>
+                <li>Компьютеры и ноутбуки</li>
+                <li>Телевизоры и аудио</li>
+                <li>Бытовая техника</li>
+                <li>Аксессуары</li>
+                <li>Умный дом</li>
+            </ul>
+
+            <p><strong>ElectroShop</strong> — это не просто магазин, это ваш надежный помощник в создании уютного и комфортного пространства. С нами вы можете быть уверены, что ваш проект будет выполнен на высшем уровне.</p>
+
+            <p>Присоединяйтесь к нам и начните строить свою мечту уже сегодня!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="index.html">
+                <img src="img/header_logo.png" width="100" height="100" />
+            </a>
+            <section class="contact">
+                <p>Адрес: г. Вологда, ул. Первомайская, д. 42</p>
+                <p>Телефон: +7 (495) 123-45-67</p>
+                <p>Email: electronics@example.com</p>
+            </section>
+        </div>
+    </footer>
+    <div id="message-box" class="message-box">
+        <span id="message-text"></span>
+        <button id="close-message">Закрыть</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
